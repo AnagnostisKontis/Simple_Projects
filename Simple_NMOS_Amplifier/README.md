@@ -12,7 +12,7 @@ All simulations and validations were performed in **LTspice**.
 | **Supply Voltage (VDD)** | 1.8V |
 | **Virtual Ground / DC Bias** | 0V |
 | **Input Signal Amplitude** | 10mV |
-| **Carrier Frequency** | 100kHz |
+| **Carrier Frequency** | 1kHz |
 | **Current** | 8μΑ |
 | **Resistor** | 138kΩ |
 | **Load Capacitor** | 1pF |
