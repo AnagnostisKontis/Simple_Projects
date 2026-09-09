@@ -1,0 +1,42 @@
+# 1.8V Simple NMOS Amplifier
+
+A complete transistor-level NMOS Amplifier design. The circuit receives a weak 1kHz sine with 10mV Amplitude, amplifies it with 20dB gain (100mV Amplitude). 
+
+All simulations and validations were performed in **LTspice**.
+
+## Key Specifications
+
+| Parameter | Value / Description |
+| :--- | :--- |
+| **Technology** | Generic CMOS Vth=0.5V Kp=200u Lambda=0.02 (W/L) = (2u/1u) |
+| **Supply Voltage (VDD)** | 1.8V |
+| **Virtual Ground / DC Bias** | 0V |
+| **Input Signal Amplitude** | 10mV |
+| **Carrier Frequency** | 100kHz |
+| **Current** | 8μΑ |
+| **Resistor** | 138kΩ |
+| **Load Capacitor** | 1pF |
+| **Bandwidth** | 0 - 1.37 MHz |
+| **Midband Gain** | 20dB|
+
+
+## Schematics & Simulation Results
+
+### Schematic
+
+![System Schematic](images/Simple_NMOS_Amplifier.png)
+
+### Transient Analysis
+The system was evaluated with the use of a weak 10mV input signal to verify the circuit's gain.
+
+
+![Waveforms](images/Simple_NMOS_Amplifier_Tran_Analysis.png)
+
+- **Blue Trace:** Input sine signal
+- **Green Trace:** Output sine signal
+
+### AC Analysis
+
+![Waveforms](images/Simple_NMOS_Amplifier_AC_Analysis.png)
+
+---
