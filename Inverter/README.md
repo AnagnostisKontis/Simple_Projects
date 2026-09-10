@@ -1,7 +1,7 @@
 # 1.8V  Inverter
 
 A complete transistor-level Inverter design. The circuit receives a 1kHz sine with 1mV Amplitude, inverts it with 0dB gain (1mV Amplitude). 2 Resistors were used
-to bring the gain down to 0dB, by implementing a negative feedback. The 104k/100k pair, provides the smallest gain.
+to bring the gain down to 0dB, by implementing a negative feedback. The 104k/100k pair provides the smallest gain.
 
 All simulations and validations were performed in **LTspice**.
 
