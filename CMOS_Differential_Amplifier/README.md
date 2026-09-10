@@ -10,8 +10,7 @@ All simulations and validations were performed in **LTspice**.
 
 | Parameter | Value / Description |
 | :--- | :--- |
-| **Technology** | Generic NMOS Vth= 0.5V Kp=200u Lambda=0.02 (W/L) = (4u/1u)
-                  Generic PMOS Vth=-0.5V Kp=100u Lambda=0.02 (W/L) = (4u/1u)|
+| **Technology** | Generic NMOS Vth= 0.5V Kp=200u Lambda=0.02 (W/L) = (4u/1u) Generic PMOS Vth=-0.5V Kp=100u Lambda=0.02 (W/L) = (4u/1u)|
 | **Supply Voltage (VDD)** | 1.8V |
 | **Virtual Ground / DC Bias** | 0V |
 | **Input Signal Amplitude** | 100μV |
